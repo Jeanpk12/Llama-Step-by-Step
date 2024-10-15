@@ -2,7 +2,7 @@
 import Groq from "groq-sdk"; // Certifique-se de que a biblioteca groq está instalada.
 import { setTimeout } from 'timers/promises';
 
-const client = new Groq({ apiKey: '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' });
+const client = new Groq({ apiKey: '' });
 
 async function makeApiCall(messages, maxTokens, isFinalAnswer = false, customClient = null) {
     const apiClient = customClient || client;
