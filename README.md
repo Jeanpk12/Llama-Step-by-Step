@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação de servidor que utiliza a API da Groq para criar um assistente de inteligência artificial que analisa e resolve problemas passo a passo, explicando seu raciocínio e explorando possibilidades alternativas. O servidor é construído com **Bun.js** e **Express**, e a lógica principal da interação com a API está no módulo `g1.js`.
 
+![alt text](./public/image/image.png)
+
 ## Estrutura do Projeto
 
 O projeto é estruturado da seguinte forma:
